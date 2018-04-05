@@ -11,10 +11,10 @@ Magento ver 2.2.2
 * Enable/Disable: STORE => SOLUTION EXCEL => Extend Search. Set value of Enable ExtendSearch to Yes and Save Config
 
 ## Extend Search system config setting
-[![reindex](seExtendSearchSetting.jpg)](/uri)
+[![Extend Search](seExtendSearchSetting.jpg)](/uri)
 
 ## Extend Search demo
-[![reindex](seExtendSearchSetting.jpg)](/uri)
+[![Extend Search](seExtendSearchFront.jpg)](/uri)
 
 ## Installation
 ##### Manually (not recommended)
