@@ -13,7 +13,7 @@ Magento ver 2.2.2
 ## Extend Search system config setting
 [![Extend Search](seExtendSearchSetting.jpg)](/uri)
 
-## Extend Search demo
+## Extend Search frontend screen shot
 [![Extend Search](seExtendSearchFront.jpg)](/uri)
 
 ## Installation
