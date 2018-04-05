@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+<!--
+/**
+ * @package     Solutionexcel_ExtendSearch
+ * @author      SolutionExcel - https://www.solutionexcel.com/ - info@solutionexcel.com
+ * @copyright   Copyright © 2018 SolutionExcel. All rights reserved.
+ * @license     https://opensource.org/licenses/AFL-3.0  Academic Free License 3.0 | Open Source Initiative
+**/
+-->
+    <menu>
+        <add id="Solutionexcel_ExtendSearch::solutionexcel_extendsearch" title="Configure ExtendSearch" module="Solutionexcel_ExtendSearch" sortOrder="10" resource="Solutionexcel_ExtendSearch::solutionexcel_extendsearch" parent="Solutionexcel_Core::solutionexcel_menutop" action="adminhtml/system_config/edit/section/solutionexcel_extendsearch/" />
+	</menu>
+</config>

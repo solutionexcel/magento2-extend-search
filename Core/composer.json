@@ -1,0 +1,39 @@
+{
+    "name": "solutionexcel/magento2-module-core",
+    "description": "Parent of all SolutionExcel custom extension.",
+	"keywords": [
+        "magento 2",
+        "free extension"
+    ],
+	"require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/magento-composer-installer": "*"
+    },
+	"require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+	"version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Solution Excel",
+            "email": "info@solutionexcel.com",
+            "homepage": "https://www.solutionexcel.com/",
+            "role": "Owner"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solutionexcel\\Core\\": ""
+        }
+    }
+}

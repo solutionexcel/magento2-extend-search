@@ -1,0 +1,41 @@
+{
+    "name": "solutionexcel/magento2-extend-search",
+    "description": "Magento 2 Extension extend search functionality input keyword that have in any position in product name and sku.",
+    "keywords": [
+        "magento 2",
+		"extend search",
+        "fulltext",
+        "fulltext search"
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "homepage": "https://www.solutionexcel.com/",
+    "support": {
+        "email": "info@solutionexcel.com",
+        "issues": "https://github.com/solutionexcel/magento2-extend-search/issues/"
+    },
+    "authors": [
+        {
+            "name": "Solution Excel",
+            "email": "info@solutionexcel.com",
+            "homepage": "https://www.solutionexcel.com/",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solutionexcel\\ExtendSearch\\": ""
+        }
+    }
+}

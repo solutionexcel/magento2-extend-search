@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @package     Solutionexcel_ExtendSearch
+ * @author      SolutionExcel - https://www.solutionexcel.com/ - info@solutionexcel.com
+ * @copyright   Copyright © 2018 SolutionExcel. All rights reserved.
+ * @license     https://opensource.org/licenses/AFL-3.0  Academic Free License 3.0 | Open Source Initiative
+**/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Solutionexcel_ExtendSearch" setup_version="1.0.1">
+        <sequence>
+			<module name="Solutionexcel_Core"/>
+            <module name="Magento_Catalog"/>
+            <module name="Magento_Search"/>
+            <module name="Magento_CatalogSearch"/>
+        </sequence>
+    </module>
+</config>
+
